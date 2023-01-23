@@ -31,7 +31,7 @@ function mainBtn() {
 
 function updateSeconds() {
     secondsElement.textContent = nbSeconds;
-    leftSeconds = SECONDS_LIMIT - nbSeconds;
+    const leftSeconds = SECONDS_LIMIT - nbSeconds;
     btnElement.textContent = "Seconds left: " + leftSeconds;
     endRun()
 }
